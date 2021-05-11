@@ -1,10 +1,10 @@
-# Project Title
+# Contacts Manager
 
-Contacts Manager
+A full stack (MERN stack) web app that allows users to maintain a contacts list.
 
 ## Description
 
-A full stack (MERN stack) web app that allows users to maintain a contacts list. 
+The web app allows CRUD (create, retrieve, update, delete) operations.
 
 ## Technologies Used
 
