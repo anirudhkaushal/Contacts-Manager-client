@@ -9,7 +9,7 @@ function App() {
   const [listOfFriends, setListOfFriends] = useState([])
 
   const addFriend = () => {
-    Axios.post('http://localhost:3001/addFriend', { 
+    Axios.post('https://ak-contacts-manager.herokuapp.com/addFriend', { 
       name: name, 
       number: number
     }).then( (response) => {
@@ -20,7 +20,7 @@ function App() {
   const updateFriend = (id) => {
     const newNumber = prompt('Enter new number: ');
 
-    Axios.put("http://localhost:3001/update", {
+    Axios.put("https://ak-contacts-manager.herokuapp.com/update", {
       newNumber: newNumber,
       id: id,
     }).then( () => {
@@ -32,7 +32,7 @@ function App() {
   }
 
   const deleteFriend = (id) => {
-    Axios.delete(`http://localhost:3001/delete/${id}`).then( () => {
+    Axios.delete(`https://ak-contacts-manager.herokuapp.com/delete/${id}`).then( () => {
       setListOfFriends(listOfFriends.filter( (val) => {
         return val._id != id;
       }))
@@ -40,7 +40,7 @@ function App() {
   }
 
   useEffect( () => {
-    Axios.get('http://localhost:3001/read')
+    Axios.get('https://ak-contacts-manager.herokuapp.com/read')
     .then( (response) => {
       setListOfFriends(response.data)
     }).catch( () => {
