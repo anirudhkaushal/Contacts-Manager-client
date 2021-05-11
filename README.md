@@ -12,7 +12,7 @@ The web app allows CRUD (create, retrieve, update, delete) operations.
 * Backend : Node.js, Express.js
 * Database : MongoDB
 
-## Delpoyment
+## Deployment
 
 The frontend of the app has been deployed using Netlify and backend has been deployed using Heroku.
 
