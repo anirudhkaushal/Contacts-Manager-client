@@ -1,15 +1,23 @@
-#Contacts Manager Web App
+# Project Title
 
-##Contacts Manager Full-Stack web app made using:-
+Contacts Manager
 
- - Front-end : React.js 
- - Back-end: Node.js and Express.js 
- - Database : MongoDB
+## Description
 
-###This is the client side (frontend) of my Contacts Manager full stack web app.
+A full stack (MERN stack) web app that allows users to maintain a contacts list. 
 
-####Link to the backend code of the project :- https://github.com/anirudhkaushal/Contacts-Manager-backend
+## Technologies Used
 
-####Link to see the deployed version of the project :- https://ak-contacts-manager.netlify.app/
+* Frontend : React.js
+* Backend : Node.js, Express.js
+* Database : MongoDB
 
-NOTE: The backend of the project has been deployed using Heroku and the frontend has been deployed using Netlify.
+## Delpoyment
+
+The frontend of the app has been deployed using Netlify and backend has been deployed using Heroku.
+To view the deployment visit the link :- https://ak-contacts-manager.netlify.app/
+
+## Note
+
+This repository contains the client side (frontend) code of the web app. 
+To see the backend code of the visit the link :- https://github.com/anirudhkaushal/Contacts-Manager-backend
