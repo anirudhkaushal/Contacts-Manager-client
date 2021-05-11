@@ -22,4 +22,4 @@ To view the deployment visit the link :- https://ak-contacts-manager.netlify.app
 
 This repository contains the client side (frontend) code of the web app. 
 
-To see the backend code of the visit the link :- https://github.com/anirudhkaushal/Contacts-Manager-backend
+To see the full code of the visit the link :- https://github.com/anirudhkaushal/Contacts-Manager
