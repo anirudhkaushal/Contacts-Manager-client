@@ -1,6 +1,8 @@
 Contacts Manager Full-Stack web app made using:-
 
-Front-end : React.js Back-end: Node.js and Express.js Database : MongoDB
+ - Front-end : React.js 
+ - Back-end: Node.js and Express.js 
+ - Database : MongoDB
 
 This is the client side (frontend) of my Contacts Manager full stack web app.
 
